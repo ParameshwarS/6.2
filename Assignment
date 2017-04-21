@@ -1,0 +1,66 @@
+1. Why MapReduce program is needed in Pig Programming?
+
+Hadoop is a java based framework for data analysis.
+The pig queries are converted into mapreduce programs internally.
+Pig statements have syntax similar to SQL queries.
+It has to be converted to mapreduce jobs to be executed in hadoop.
+
+
+2. What are advantages of Pig over MapReduce?
+
+MapReduce needs to be written in java language.
+Whereas pig queries are Sql based queries.
+It make them easier to think and write.
+MapReduce are in terms of mapper and reducer.
+Pig Script is more efficient than mapreduce because 
+* The number of lines in a Pig Script is comparatively very much lesser than that of complex map reduce programs.
+
+
+3. What is Pig engine and what is its importance?
+
+Pig Engine is a component of apache Pig.
+It takes pig latin scripts as input.
+It converts them into MapReduce jobs.
+
+4. What are the modes of Pig execution?
+
+Local mode: 
+The pig script is executed in the local unix path. 
+The input files are in the Local file system.
+
+MapReduce mode:
+The pig Script is executed in the Hadoop cluster.
+The input and output paths are in the HDFS.
+
+5. What is Grunt Shell in Pig?
+
+
+It is a interactive shell.
+Here,we can execute the pig commands directly from the bash rather than as a Script file.
+
+6. What are the features of Pig Latin language?
+
+It is easier to write Pig Latin than writing complex mapreduce jobs.
+The Pig Latin is automatically converted to Mapreduce jobs by the execution engine.
+It has support to process huge amounts of data.
+It has many built-in operators and also supports the creation of user defined functions in other programming languages
+and invoke in pig scripts.
+
+
+
+7. Is Pig Latin commands case sensitive?
+
+Case Sensitive commands:
+relations
+fields
+pig latin functions 
+
+Case Insensitive commands:
+Parameters name
+All other pig latin keywords are case insensitive.
+
+8. What is a data flow language?
+
+Data flow programming is a programming paradigm.
+It models a program as a directed graph of the data flowing between operations.
+It implements dataflow principles and architecture.
